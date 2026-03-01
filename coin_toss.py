@@ -8,7 +8,12 @@
 # 4. The Sample Output has been included in this code for your convenience
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+import random
 
+print("===== Coin Flipper =====")
+
+result = random.choice(["Heads", "Tails"])
+print(result)
 
 
 
